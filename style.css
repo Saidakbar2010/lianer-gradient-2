@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 400px;
+  height: 200px;
+  background-image: repeating-linear-gradient(45deg, orange 0px, orange 10px, yellow 10px, yellow 20px);
+  display: inline-block;
+
+}
+.box_1{
+    width: 400px;
+    height: 200px;
+    background-image: repeating-linear-gradient(-45deg, blue 0px, blue 10px, white 10px, white 20px);
+    
+}
+.box_dad{
+    display: flex;
+    gap: 30px
+    ;
+}
+.box_2{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(180deg, red, yellow,);
+}
